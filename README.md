@@ -38,3 +38,12 @@ const userInput = "11";
 neighbor(userInput);
 # Expected Output:
 "Beep!"
+
+# Describe: returnList()
+
+# Test:
+"It should return a list of values from 0 to the user's inputter number"
+# Code:
+returnList(7);
+# Expected Output:
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
