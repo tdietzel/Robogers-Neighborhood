@@ -47,3 +47,12 @@ neighbor(userInput);
 returnList(7);
 # Expected Output:
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+
+# Describe: neighbor()
+
+# Test:
+"It should create an array of characters from the users input"
+# Code:
+neighbor("234");
+# Expected Output:
+['2', '3', '4']
