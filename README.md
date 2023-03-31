@@ -14,3 +14,11 @@ const userInput = " 13 ";
 neighbor(userInput);
 # Expected Output:
 13
+
+# Test:
+"It should return a response if the number contains a 3"
+# Code:
+const userInput = "23";
+neighbor(userInput);
+# Expected Output:
+"Won't you be my neighbor?"
