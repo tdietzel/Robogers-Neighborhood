@@ -6,6 +6,8 @@ function neighbor(userInput) {
   if (!Number(number)) {
     return false;
   } else {
-    return true;
+    if (number.includes(3)) {
+      console.log("Won't you be my neighbor?");
+    }
   }
 }
