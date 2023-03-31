@@ -15,3 +15,9 @@ function neighbor(userInput) {
     }
   }
 }
+
+function returnList(number) {
+  for (i = 0; i < number + 1; i++) {
+    console.log(i);
+  }
+    }
