@@ -8,6 +8,8 @@ function neighbor(userInput) {
   } else {
     if (number.includes(3)) {
       console.log("Won't you be my neighbor?");
+    } else if (number.includes(2)) {
+      console.log("Boop!");
     }
   }
 }
