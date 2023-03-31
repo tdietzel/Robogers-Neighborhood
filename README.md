@@ -22,3 +22,11 @@ const userInput = "23";
 neighbor(userInput);
 # Expected Output:
 "Won't you be my neighbor?"
+
+# Test:
+"It should return a different response if the number contains 2"
+# Code:
+const userInput = "20";
+neighbor(userInput);
+# Expected Output:
+"Boop!"
