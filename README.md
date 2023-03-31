@@ -30,3 +30,11 @@ const userInput = "20";
 neighbor(userInput);
 # Expected Output:
 "Boop!"
+
+# Test:
+"It should return a different response if the number contains 1"
+# Code:
+const userInput = "11";
+neighbor(userInput);
+# Expected Output:
+"Beep!"
