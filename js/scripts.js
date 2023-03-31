@@ -21,3 +21,8 @@ function returnList(number) {
     console.log(i);
   }
     }
+
+function substitutions(number) {
+  const numberArray = number.split('');
+  console.log(numberArray);
+}

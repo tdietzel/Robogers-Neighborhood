@@ -48,7 +48,7 @@ returnList(7);
 # Expected Output:
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 
-# Describe: neighbor()
+# Describe: substitutions()
 
 # Test:
 "It should create an array of characters from the users input"
